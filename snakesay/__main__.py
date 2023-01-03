@@ -1,5 +1,9 @@
 import sys
 
-import snake
+from snakesay import snake
 
-snake.say(" ".join(sys.argv[1:]))
+def main():
+    snake.say(" ".join(sys.argv[1:]))
+
+if __name__ == '__main__':
+    main()
