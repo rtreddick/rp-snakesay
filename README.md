@@ -6,7 +6,7 @@ https://www.youtube.com/watch?v=v6tALyc4C10
 ## Editable install
 Clone the repo. Navigate to rp-snakesay dir. Run the following command.
 
-```python -m pip install -e snakesay```
+```python -m pip install -e .```
 
 This will point the installation to cloned source files. Changes to the source files will take effect in the install.
 
